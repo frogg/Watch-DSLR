@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		511D16551AB582DE00AA1B62 /* Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 511D16541AB582DE00AA1B62 /* Camera.m */; };
+		511D16581AB58C1800AA1B62 /* Packet.m in Sources */ = {isa = PBXBuildFile; fileRef = 511D16571AB58C1800AA1B62 /* Packet.m */; };
+		511D165B1AB6E24700AA1B62 /* PTPString.m in Sources */ = {isa = PBXBuildFile; fileRef = 511D165A1AB6E24700AA1B62 /* PTPString.m */; };
+		511D165E1AB6E25000AA1B62 /* PTPArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 511D165D1AB6E25000AA1B62 /* PTPArray.m */; };
+		517E9E521AB4A126001DB93A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 517E9E511AB4A126001DB93A /* main.m */; };
+		517E9E551AB4A126001DB93A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 517E9E541AB4A126001DB93A /* AppDelegate.m */; };
+		517E9E581AB4A126001DB93A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 517E9E571AB4A126001DB93A /* ViewController.m */; };
+		517E9E5B1AB4A126001DB93A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 517E9E591AB4A126001DB93A /* Main.storyboard */; };
+		517E9E5D1AB4A126001DB93A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 517E9E5C1AB4A126001DB93A /* Images.xcassets */; };
+		517E9E601AB4A126001DB93A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 517E9E5E1AB4A126001DB93A /* LaunchScreen.xib */; };
+		517E9E6C1AB4A126001DB93A /* Watch_DSLRTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 517E9E6B1AB4A126001DB93A /* Watch_DSLRTests.m */; };
+		517E9E791AB4A1BB001DB93A /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 517E9E761AB4A1BB001DB93A /* GCDAsyncSocket.m */; };
+		517E9E7A1AB4A1BB001DB93A /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 517E9E781AB4A1BB001DB93A /* GCDAsyncUdpSocket.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		517E9E661AB4A126001DB93A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 517E9E441AB4A126001DB93A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 517E9E4B1AB4A126001DB93A;
+			remoteInfo = "Watch DSLR";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		511D16531AB582DE00AA1B62 /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		511D16541AB582DE00AA1B62 /* Camera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Camera.m; sourceTree = "<group>"; };
+		511D16561AB58C1800AA1B62 /* Packet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Packet.h; sourceTree = "<group>"; };
+		511D16571AB58C1800AA1B62 /* Packet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Packet.m; sourceTree = "<group>"; };
+		511D16591AB6E24700AA1B62 /* PTPString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPString.h; sourceTree = "<group>"; };
+		511D165A1AB6E24700AA1B62 /* PTPString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTPString.m; sourceTree = "<group>"; };
+		511D165C1AB6E25000AA1B62 /* PTPArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPArray.h; sourceTree = "<group>"; };
+		511D165D1AB6E25000AA1B62 /* PTPArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTPArray.m; sourceTree = "<group>"; };
+		517E9E4C1AB4A126001DB93A /* Watch DSLR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Watch DSLR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		517E9E501AB4A126001DB93A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		517E9E511AB4A126001DB93A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		517E9E531AB4A126001DB93A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		517E9E541AB4A126001DB93A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		517E9E561AB4A126001DB93A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		517E9E571AB4A126001DB93A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		517E9E5A1AB4A126001DB93A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		517E9E5C1AB4A126001DB93A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		517E9E5F1AB4A126001DB93A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		517E9E651AB4A126001DB93A /* Watch DSLRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Watch DSLRTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		517E9E6A1AB4A126001DB93A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		517E9E6B1AB4A126001DB93A /* Watch_DSLRTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Watch_DSLRTests.m; sourceTree = "<group>"; };
+		517E9E751AB4A1BB001DB93A /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		517E9E761AB4A1BB001DB93A /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		517E9E771AB4A1BB001DB93A /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		517E9E781AB4A1BB001DB93A /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		517E9E491AB4A126001DB93A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517E9E621AB4A126001DB93A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		517E9E431AB4A126001DB93A = {
+			isa = PBXGroup;
+			children = (
+				517E9E4E1AB4A126001DB93A /* Watch DSLR */,
+				517E9E681AB4A126001DB93A /* Watch DSLRTests */,
+				517E9E4D1AB4A126001DB93A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		517E9E4D1AB4A126001DB93A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				517E9E4C1AB4A126001DB93A /* Watch DSLR.app */,
+				517E9E651AB4A126001DB93A /* Watch DSLRTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		517E9E4E1AB4A126001DB93A /* Watch DSLR */ = {
+			isa = PBXGroup;
+			children = (
+				517E9E531AB4A126001DB93A /* AppDelegate.h */,
+				517E9E541AB4A126001DB93A /* AppDelegate.m */,
+				517E9E561AB4A126001DB93A /* ViewController.h */,
+				517E9E571AB4A126001DB93A /* ViewController.m */,
+				511D16531AB582DE00AA1B62 /* Camera.h */,
+				511D16541AB582DE00AA1B62 /* Camera.m */,
+				511D16561AB58C1800AA1B62 /* Packet.h */,
+				511D16571AB58C1800AA1B62 /* Packet.m */,
+				511D16591AB6E24700AA1B62 /* PTPString.h */,
+				511D165A1AB6E24700AA1B62 /* PTPString.m */,
+				511D165C1AB6E25000AA1B62 /* PTPArray.h */,
+				511D165D1AB6E25000AA1B62 /* PTPArray.m */,
+				517E9E751AB4A1BB001DB93A /* GCDAsyncSocket.h */,
+				517E9E761AB4A1BB001DB93A /* GCDAsyncSocket.m */,
+				517E9E771AB4A1BB001DB93A /* GCDAsyncUdpSocket.h */,
+				517E9E781AB4A1BB001DB93A /* GCDAsyncUdpSocket.m */,
+				517E9E591AB4A126001DB93A /* Main.storyboard */,
+				517E9E5C1AB4A126001DB93A /* Images.xcassets */,
+				517E9E5E1AB4A126001DB93A /* LaunchScreen.xib */,
+				517E9E4F1AB4A126001DB93A /* Supporting Files */,
+			);
+			path = "Watch DSLR";
+			sourceTree = "<group>";
+		};
+		517E9E4F1AB4A126001DB93A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				517E9E501AB4A126001DB93A /* Info.plist */,
+				517E9E511AB4A126001DB93A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		517E9E681AB4A126001DB93A /* Watch DSLRTests */ = {
+			isa = PBXGroup;
+			children = (
+				517E9E6B1AB4A126001DB93A /* Watch_DSLRTests.m */,
+				517E9E691AB4A126001DB93A /* Supporting Files */,
+			);
+			path = "Watch DSLRTests";
+			sourceTree = "<group>";
+		};
+		517E9E691AB4A126001DB93A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				517E9E6A1AB4A126001DB93A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		517E9E4B1AB4A126001DB93A /* Watch DSLR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 517E9E6F1AB4A126001DB93A /* Build configuration list for PBXNativeTarget "Watch DSLR" */;
+			buildPhases = (
+				517E9E481AB4A126001DB93A /* Sources */,
+				517E9E491AB4A126001DB93A /* Frameworks */,
+				517E9E4A1AB4A126001DB93A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Watch DSLR";
+			productName = "Watch DSLR";
+			productReference = 517E9E4C1AB4A126001DB93A /* Watch DSLR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		517E9E641AB4A126001DB93A /* Watch DSLRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 517E9E721AB4A126001DB93A /* Build configuration list for PBXNativeTarget "Watch DSLRTests" */;
+			buildPhases = (
+				517E9E611AB4A126001DB93A /* Sources */,
+				517E9E621AB4A126001DB93A /* Frameworks */,
+				517E9E631AB4A126001DB93A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				517E9E671AB4A126001DB93A /* PBXTargetDependency */,
+			);
+			name = "Watch DSLRTests";
+			productName = "Watch DSLRTests";
+			productReference = 517E9E651AB4A126001DB93A /* Watch DSLRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		517E9E441AB4A126001DB93A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Frederik Riedel";
+				TargetAttributes = {
+					517E9E4B1AB4A126001DB93A = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					517E9E641AB4A126001DB93A = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 517E9E4B1AB4A126001DB93A;
+					};
+				};
+			};
+			buildConfigurationList = 517E9E471AB4A126001DB93A /* Build configuration list for PBXProject "Watch DSLR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 517E9E431AB4A126001DB93A;
+			productRefGroup = 517E9E4D1AB4A126001DB93A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				517E9E4B1AB4A126001DB93A /* Watch DSLR */,
+				517E9E641AB4A126001DB93A /* Watch DSLRTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		517E9E4A1AB4A126001DB93A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517E9E5B1AB4A126001DB93A /* Main.storyboard in Resources */,
+				517E9E601AB4A126001DB93A /* LaunchScreen.xib in Resources */,
+				517E9E5D1AB4A126001DB93A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517E9E631AB4A126001DB93A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		517E9E481AB4A126001DB93A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511D16581AB58C1800AA1B62 /* Packet.m in Sources */,
+				511D165B1AB6E24700AA1B62 /* PTPString.m in Sources */,
+				517E9E791AB4A1BB001DB93A /* GCDAsyncSocket.m in Sources */,
+				511D165E1AB6E25000AA1B62 /* PTPArray.m in Sources */,
+				517E9E7A1AB4A1BB001DB93A /* GCDAsyncUdpSocket.m in Sources */,
+				517E9E581AB4A126001DB93A /* ViewController.m in Sources */,
+				517E9E551AB4A126001DB93A /* AppDelegate.m in Sources */,
+				511D16551AB582DE00AA1B62 /* Camera.m in Sources */,
+				517E9E521AB4A126001DB93A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517E9E611AB4A126001DB93A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517E9E6C1AB4A126001DB93A /* Watch_DSLRTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		517E9E671AB4A126001DB93A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 517E9E4B1AB4A126001DB93A /* Watch DSLR */;
+			targetProxy = 517E9E661AB4A126001DB93A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		517E9E591AB4A126001DB93A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				517E9E5A1AB4A126001DB93A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		517E9E5E1AB4A126001DB93A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				517E9E5F1AB4A126001DB93A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		517E9E6D1AB4A126001DB93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		517E9E6E1AB4A126001DB93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		517E9E701AB4A126001DB93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Watch DSLR/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		517E9E711AB4A126001DB93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Watch DSLR/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		517E9E731AB4A126001DB93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Watch DSLRTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watch DSLR.app/Watch DSLR";
+			};
+			name = Debug;
+		};
+		517E9E741AB4A126001DB93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Watch DSLRTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watch DSLR.app/Watch DSLR";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		517E9E471AB4A126001DB93A /* Build configuration list for PBXProject "Watch DSLR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517E9E6D1AB4A126001DB93A /* Debug */,
+				517E9E6E1AB4A126001DB93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		517E9E6F1AB4A126001DB93A /* Build configuration list for PBXNativeTarget "Watch DSLR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517E9E701AB4A126001DB93A /* Debug */,
+				517E9E711AB4A126001DB93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		517E9E721AB4A126001DB93A /* Build configuration list for PBXNativeTarget "Watch DSLRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517E9E731AB4A126001DB93A /* Debug */,
+				517E9E741AB4A126001DB93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 517E9E441AB4A126001DB93A /* Project object */;
+}
